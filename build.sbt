@@ -14,6 +14,9 @@ libraryDependencies ++= Seq(
 
   // http4s
   "org.http4s"                        %% "http4s-ember-server"              % "0.23.18",
+  "org.http4s"                        %% "http4s-dsl"                       % "0.23.18",
+  "org.http4s"                        %% "http4s-blaze-server"              % "0.23.14",
+  "org.http4s"                        %% "http4s-blaze-client"              % "0.23.14",
 
   // ZIO
   "dev.zio"                           %% "zio"                              % "2.0.13",
